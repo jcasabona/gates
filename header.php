@@ -54,9 +54,7 @@
 						<span class="close"><?php _e( 'Close', 'gates' ); ?></span>
 					</p>
 				
-				</a>
-				
-				<?php get_template_part( 'menu', 'social' ); ?>				
+				</a>		
 				
 				<div class="clear"></div>
 								
