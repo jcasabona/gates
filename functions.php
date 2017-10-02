@@ -67,7 +67,7 @@ add_action( 'wp_enqueue_scripts', 'gates_load_javascript_files' );
 // Register and enqueue styles
 function gates_load_style() {
 	if ( !is_admin() ) {
-	    wp_enqueue_style( 'gates_googleFonts', '//fonts.googleapis.com/css?family=Raleway:400,600,700,800|Vollkorn:400,400italic,700,700italic' );
+	    wp_enqueue_style( 'gates_googleFonts', '//fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700|Merriweather:400,700' );
 	    wp_enqueue_style( 'gates_genericons', get_template_directory_uri() . '/genericons/genericons.css' );
 	    wp_enqueue_style( 'gates_style', get_stylesheet_uri() );
 	}
@@ -79,7 +79,7 @@ add_action('wp_print_styles', 'gates_load_style');
 // Add editor styles
 function gates_add_editor_styles() {
     add_editor_style( 'gates-editor-styles.css' );
-    $font_url = '//fonts.googleapis.com/css?family=Raleway:400,600,700,800|Vollkorn:400,400italic,700,700italic';
+    $font_url = '//fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700|Merriweather:400,700';
     add_editor_style( str_replace( ',', '%2C', $font_url ) );
 }
 add_action( 'init', 'gates_add_editor_styles' );

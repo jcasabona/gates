@@ -132,7 +132,7 @@ body {
   border: none;
   color: #333;
   background: #f9f9f9;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 18px;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -808,7 +808,7 @@ body a,
   display: block;
   padding: 25px 0 0;
   margin: 0 5%;
-  font-family: "Vollkorn", "Times New Roman", "Times", serif;
+  font-family: "Merriweather", "Times New Roman", "Times", serif;
   font-size: 0.9em;
   font-style: italic;
   text-align: center;
@@ -908,7 +908,7 @@ body a,
   display: inline-block;
   padding: 15px 15px 14px;
   border: 3px solid #00a2e8;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   line-height: 1;
   font-weight: 700;
@@ -954,7 +954,7 @@ body a,
   display: inline-block;
   margin-top: 20px;
   background: #fafafa;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   line-height: 1;
   font-weight: 600;
@@ -1060,7 +1060,7 @@ body a,
   background: #333;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 3px 3px 0 0;
-  font-family: "Vollkorn", serif;
+  font-family: "Merriweather", serif;
   font-style: italic;
   font-size: 0.9em;
   line-height: 1;
@@ -1074,7 +1074,7 @@ body a,
 /* -------------------------------------------------------------------------------- */
 
 .post-content {
-  font-family: "Vollkorn", "Times New Roman", "Times", serif;
+  font-family: "Merriweather", "Times New Roman", "Times", serif;
   font-size: 1.15em;
 }
 
@@ -1112,7 +1112,7 @@ body a,
 .post-content h5,
 .post-content h6 {
   margin: 60px 0 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   line-height: 120%;
   text-transform: uppercase;
 }
@@ -1220,7 +1220,7 @@ body a,
 }
 
 .post-content cite {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 1rem;
   line-height: 140%;
   font-weight: 600;
@@ -1355,7 +1355,7 @@ acronym {
 .post-content address {
   padding: 3% 3.5%;
   background: #f1f1f1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.85em;
   line-height: 200%;
   font-weight: 600;
@@ -1444,7 +1444,7 @@ acronym {
 /* jetpack tiled gallery */
 
 .tiled-gallery .tiled-gallery-caption {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
@@ -1495,7 +1495,7 @@ acronym {
 }
 
 .post-content th {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1517,7 +1517,7 @@ acronym {
 }
 
 .post-content fieldset legend {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   line-height: 1;
   font-weight: 600;
@@ -1530,7 +1530,7 @@ acronym {
 }
 
 .post-content label {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -1539,7 +1539,7 @@ acronym {
 }
 
 .post-content input {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .post-content input[type="file"] {
@@ -1556,7 +1556,7 @@ acronym {
 .post-content textarea {
   width: 100%;
   padding: 20px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.85em;
   border: none;
   color: #444;
@@ -1922,7 +1922,7 @@ acronym {
 /* no comments */
 
 .no-comments {
-  font-family: "Vollkorn", serif;
+  font-family: "Merriweather", serif;
   font-style: italic;
   text-align: center;
   color: #666;
@@ -2166,7 +2166,7 @@ div.comment {
   border: none;
   margin: 0;
   background: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 1em;
   -webkit-appearance: none;
   border-radius: 0;
@@ -2238,7 +2238,7 @@ div.comment {
   padding: 14px 15px 13px;
   background: #fff;
   border: 2px solid #00a2e8;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -2286,7 +2286,7 @@ div.comment {
 }
 
 .tag-meta p {
-  font-family: "Vollkorn", serif;
+  font-family: "Merriweather", serif;
   font-style: italic;
   text-align: center;
   color: #999;
@@ -2357,7 +2357,7 @@ div.comment {
 
 .posts-archive-list span {
   margin-left: 5px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.7em;
   font-weight: 600;
   text-transform: uppercase;
@@ -2378,7 +2378,7 @@ div.comment {
 }
 
 .widget-title {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.95em;
   font-weight: 700;
   text-transform: uppercase;
@@ -2387,7 +2387,7 @@ div.comment {
 }
 
 .widget-content {
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   color: #555;
 }
@@ -2445,7 +2445,7 @@ div.comment {
 #wp-calendar {
   width: 100%;
   max-width: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: #888;
   text-align: center;
 }
@@ -2528,7 +2528,7 @@ div.comment {
   padding: 8px 8px;
   background: #eee;
   border-radius: 3px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   line-height: 1;
   margin: 0 5px 5px 0;
   color: #666;
@@ -2610,7 +2610,7 @@ div.comment {
   margin: 0;
   border: none;
   background: #eee;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 1rem;
   color: #444;
   -webkit-appearance: none;
