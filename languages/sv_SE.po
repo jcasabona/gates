@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gates v1.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-11 13:24:15+0000\n"
+"Last-Translator: anders <anders@andersnoren.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:11
+#@ gates
+msgid "Error 404"
+msgstr "Error 404"
+
+#: 404.php:17
+#@ gates
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Det vekar som att du har försökt öppna en sida som inte existerar. Den kan ha raderats, flyttats, eller har aldrig existerat överhuvudtaget. Du är välkommen att söka efter det du letar efter genom formuläret nedan."
+
+#: archive.php:10
+#, php-format
+#@ gates
+msgid "Date: %s"
+msgstr "Datum: %s"
+
+#: archive.php:12
+#, php-format
+#@ gates
+msgid "Month: %s"
+msgstr "Månad: %s"
+
+#: archive.php:12
+#@ gates
+msgctxt "F = Month, Y = Year"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:14
+#, php-format
+#@ gates
+msgid "Year: %s"
+msgstr "År: %s"
+
+#: archive.php:14
+#@ gates
+msgctxt "Y = Year"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:16
+#, php-format
+#@ gates
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#: archive.php:18
+#, php-format
+#@ gates
+msgid "Tag: %s"
+msgstr "Etikett: %s"
+
+#: archive.php:21
+#, php-format
+#@ gates
+msgid "Author: %s"
+msgstr "Författare: %s"
+
+#: archive.php:23
+#@ gates
+msgid "Archive"
+msgstr "Arkiv"
+
+#: archive.php:31
+#: search.php:18
+#: search.php:63
+#, php-format
+#@ gates
+msgid "(page %s of %s)"
+msgstr "(sida %s av %s)"
+
+#: archive.php:65
+#: index.php:43
+#: search.php:40
+#@ gates
+msgid "Older posts"
+msgstr "Äldre inlägg"
+
+#: archive.php:67
+#: index.php:45
+#: search.php:42
+#@ gates
+msgid "Newer posts"
+msgstr "Nyare inlägg"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: comments.php:14
+#: comments.php:99
+#@ gates
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "kommentar"
+msgstr[1] "kommentarer"
+
+#: comments.php:20
+#@ gates
+msgid "Add yours"
+msgstr "Lägg till"
+
+#: comments.php:43
+#@ gates
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingbacks"
+
+#: comments.php:63
+#@ gates
+msgid "Older Comments"
+msgstr "Äldre kommentarer"
+
+#: comments.php:69
+#@ gates
+msgid "Newer Comments"
+msgstr "Nyare kommentarer"
+
+#: comments.php:85
+#@ gates
+msgid "Comments are closed."
+msgstr "Kommentarsfältet är stängt."
+
+#: comments.php:107
+#@ gates
+msgid "Name"
+msgstr "Namn"
+
+#: comments.php:113
+#@ gates
+msgid "Email"
+msgstr "E-postadress"
+
+#: comments.php:119
+#@ gates
+msgid "Website"
+msgstr "Webbplats"
+
+#: content-gallery.php:30
+#@ gates
+msgid "Sticky"
+msgstr "Klistrat"
+
+#: footer.php:94
+#@ gates
+msgid "Theme by"
+msgstr "Tema av"
+
+#: functions.php:93
+#@ gates
+msgid "Footer A"
+msgstr "Sidfot A"
+
+#: functions.php:95
+#@ gates
+msgid "Widgets in this area will be shown in the left column in the footer."
+msgstr "Widgets i det här fältet kommer att visas i den vänstra kolumnen i sidfoten."
+
+#: functions.php:102
+#@ gates
+msgid "Footer B"
+msgstr "Footer B"
+
+#: functions.php:104
+#@ gates
+msgid "Widgets in this area will be shown in the middle column in the footer."
+msgstr "Widgets i det här fältet kommer att visas i mittenkolumnen i sidfoten."
+
+#: functions.php:111
+#@ gates
+msgid "Footer C"
+msgstr "Footer C"
+
+#: functions.php:113
+#@ gates
+msgid "Widgets in this area will be shown in the right column in the footer."
+msgstr "Widgets i det här fältet kommer att visas i den högra kolumnen i sidfoten."
+
+#: functions.php:309
+#@ gates
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:309
+#@ gates
+msgid "(Edit)"
+msgstr "(Redigera)"
+
+#: functions.php:328
+#@ gates
+msgid "Comment by post author"
+msgstr "Kommentar av inläggsförfattaren"
+
+#: functions.php:342
+#@ gates
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar moderering"
+
+#: content-gallery.php:32
+#: content.php:44
+#: functions.php:360
+#: single.php:50
+#@ gates
+msgid "Edit"
+msgstr "Redigera"
+
+#: functions.php:365
+#@ gates
+msgid "Reply"
+msgstr "Svara"
+
+#: functions.php:407
+#: functions.php:441
+#@ gates
+msgid "Logo"
+msgstr "Logotyp"
+
+#: functions.php:433
+#@ gates
+msgid "Accent Color"
+msgstr "Accentfärg"
+
+#: header.php:55
+#@ gates
+msgid "Menu"
+msgstr "Meny"
+
+#: searchform.php:2
+#@ gates
+msgid "Search form"
+msgstr "Sökformulär"
+
+#: image.php:45
+#: page.php:60
+#: single.php:339
+#: template-archive.php:113
+#: template-fullwidth.php:66
+#@ gates
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "Vi kunde inte hitta några inlägg som matchar din sökning. Vänligen försök igen."
+
+#: index.php:19
+#, php-format
+#@ gates
+msgid "Page %s of %s"
+msgstr "Sida %s av %s"
+
+#: search.php:11
+#: search.php:56
+#@ gates
+msgid "Search results:"
+msgstr "Sökresultat:"
+
+#: search.php:75
+#@ gates
+msgid "No results. Try again, would you kindly?"
+msgstr "Inga resultat. Försök gärna igen."
+
+#: single.php:157
+#@ gates
+msgid "Next post:"
+msgstr "Nästa inlägg:"
+
+#: single.php:168
+#@ gates
+msgid "Previous post:"
+msgstr "Föregående inlägg:"
+
+#: content-gallery.php:11
+#: content.php:25
+#@ gates
+msgid "Sticky post"
+msgstr "Klistrat inlägg"
+
+#: footer.php:92
+#@ gates
+msgid "All rights reserved."
+msgstr "Alla rättigheter reserverade."
+
+#: functions.php:35
+#@ gates
+msgid "Primary Menu"
+msgstr "Huvudmeny"
+
+#: functions.php:36
+#@ gates
+msgid "Social Menu"
+msgstr "Sociala medier-meny"
+
+#: functions.php:158
+#@ gates
+msgid "Read more"
+msgstr "Läs mer"
+
+#: functions.php:334
+#@ gates
+msgid "says:"
+msgstr "säger:"
+
+#: header.php:42
+#@ gates
+msgid "Click to view the navigation"
+msgstr "Klicka för att visa menyn"
+
+#: header.php:56
+#@ gates
+msgid "Close"
+msgstr "Stäng"
+
+#: page.php:36
+#: single.php:64
+#: template-fullwidth.php:42
+#@ gates
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: single.php:93
+#@ gates
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: single.php:99
+#@ gates
+msgid "Post info"
+msgstr "Om inlägget"
+
+#: single.php:105
+#@ gates
+msgid "Author info"
+msgstr "Om författaren"
+
+#: single.php:158
+#@ gates
+msgid "Next post"
+msgstr "Nästa inlägg"
+
+#: single.php:169
+#@ gates
+msgid "Previous post"
+msgstr "Föregående inlägg"
+
+#: template-archive.php:31
+#@ gates
+msgid "Posts"
+msgstr "Inlägg"
+
+#: template-archive.php:47
+#@ gates
+msgid "Categories"
+msgstr "Kategorier"
+
+#: template-archive.php:51
+#@ gates
+msgid "Tags"
+msgstr "Etiketter"
+
+#: template-archive.php:58
+#, php-format
+#@ gates
+msgid "View all posts in %s"
+msgstr "Visa alla inlägg i %s"
+
+#: template-archive.php:65
+#@ gates
+msgid "Contributors"
+msgstr "Författare"
+
+#: template-archive.php:71
+#@ gates
+msgid "Archives by Year"
+msgstr "Arkiv efter år"
+
+#: template-archive.php:77
+#@ gates
+msgid "Archives by Month"
+msgstr "Arkiv efter månad"
+
+#: template-archive.php:83
+#@ gates
+msgid "Archives by Day"
+msgstr "Arkiv efter dag"
+
+#: widgets/flickr.php:67
+#: widgets/recent-comments.php:109
+#: widgets/recent-posts.php:116
+#@ gates
+msgid "Title"
+msgstr "Titel"
+
+#: widgets/flickr.php:6
+#@ gates
+msgid "Displays your latest Flickr photos."
+msgstr "Visar dina senaste Flickr-bilder."
+
+#: widgets/recent-comments.php:6
+#@ gates
+msgid "Displays recent comments with user avatars."
+msgstr "Visar de senaste kommentarerna med användaravatarer."
+
+#: widgets/recent-comments.php:54
+#@ gates
+msgid "Comment to"
+msgstr "Kommentar till"
+
+#: widgets/recent-comments.php:116
+#: widgets/recent-posts.php:123
+#@ gates
+msgid "Defaults to 5 if empty"
+msgstr "Om fältet lämnas tomt kommer 5 att visas"
+
+#: functions.php:399
+#@ gates
+msgid "gates Options"
+msgstr "Alternativ för gates"
+
+#: functions.php:402
+#@ gates
+msgid "Allows you to customize theme settings for gates."
+msgstr "Låter dig bestämma temainställningarna för gates."
+
+#: content-gallery.php:26
+#: content.php:40
+#: single.php:46
+#@ gates
+msgid "0 Comments"
+msgstr "0 kommentarer"
+
+#: content-gallery.php:26
+#: content.php:40
+#: single.php:46
+#@ gates
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: content-gallery.php:26
+#: content.php:40
+#: single.php:46
+#@ gates
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: single.php:199
+#@ gates
+msgid "Administrator"
+msgstr "Administratör"
+
+#: single.php:201
+#@ gates
+msgid "Editor"
+msgstr "Redaktör"
+
+#: single.php:203
+#@ gates
+msgid "Author"
+msgstr "Skribent"
+
+#: single.php:205
+#@ gates
+msgid "Contributor"
+msgstr "Medarbetare"
+
+#: single.php:207
+#@ gates
+msgid "Subscriber"
+msgstr "Prenumerant"
+
+#: single.php:209
+#@ gates
+msgid "Guest"
+msgstr "Gäst"
+
+#: functions.php:409
+#@ gates
+msgid "Upload a logo to replace the default site name and description in the header"
+msgstr "Ladda upp en logotyp för att visas istället för sidtiteln och -beskrivningen i sidhuvudet"
+
+#: widgets/flickr.php:7
+#@ gates
+msgid "Flickr Widget"
+msgstr "Flickr-widget"
+
+#: widgets/flickr.php:73
+#@ gates
+msgid "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr ID (använd <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>)"
+
+#: widgets/flickr.php:79
+#@ gates
+msgid "Number of images to display"
+msgstr "Antal bilder att visa"
+
+#: widgets/recent-comments.php:7
+#@ gates
+msgid "Recent Comments"
+msgstr "Nya kommentarer"
+
+#: widgets/recent-comments.php:54
+#@ gates
+msgid "posted"
+msgstr "publicerades"
+
+#: widgets/recent-comments.php:114
+#@ gates
+msgid "Number of comments to display"
+msgstr "Antal kommentarer att visa"
+
+#: widgets/recent-posts.php:7
+#@ gates
+msgid "Recent Posts"
+msgstr "Nya inlägg"
+
+#: widgets/recent-posts.php:6
+#@ gates
+msgid "Displays recent blog entries."
+msgstr "Visar de senaste blogginläggen."
+
+#: widgets/recent-posts.php:121
+#@ gates
+msgid "Number of posts to display"
+msgstr "Antal inlägg att visa"
+
