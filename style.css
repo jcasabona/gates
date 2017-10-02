@@ -363,7 +363,7 @@ body a,
 /* -------------------------------------------------------------------------------- */
 
 .header {
-  padding: 50px 0;
+  padding: 15px 0;
   margin: 0 auto;
   border-bottom: 1px solid #eee;
   background: #fff;
@@ -376,16 +376,26 @@ body a,
   transition: padding 0.4s ease-in-out;
 }
 
+.home .header {
+  padding: 50px 0;
+}
+
 .blog-title {
-  font-size: 2em;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 4em;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
 }
 
 .blog-title a {
-  color: #00a2e8;
+  background: #00a2e8;
+  display: inline-block;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.blog-title a:hover {
+  color: #98cbe0;
 }
 
 .blog-description {
