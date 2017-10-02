@@ -333,20 +333,6 @@ body a,
   left: 0;
 }
 
-.wrapper:after {
-  content: "";
-  display: block;
-  border: 20px solid transparent;
-  border-top-color: #f9f9f9;
-  border-right-color: #f9f9f9;
-  border-bottom-color: #eee;
-  border-left-color: #eee;
-  position: absolute;
-  z-index: 1001;
-  top: 0;
-  right: 0;
-}
-
 /* gridiriffic */
 
 .one-half,
