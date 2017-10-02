@@ -407,8 +407,9 @@ class gates_Customize {
             'title'       => __( 'Logo', 'gates' ),
             'priority'    => 40,
             'description' => __('Upload a logo to replace the default site name and description in the header', 'gates'),
-      ) );
-        
+	  ) );
+	  
+
       
       //2. Register new settings to the WP database...
       $wp_customize->add_setting( 'accent_color', //No need to use a SERIALIZED name, as `theme_mod` settings already live under one db record
@@ -425,7 +426,13 @@ class gates_Customize {
       	array( 
       		'sanitize_callback' => 'esc_url_raw'
       	) 
-      );
+	  );
+	  
+	  $wp_customize->add_setting( 'gates_bg_image', 
+	  array( 
+		  'sanitize_callback' => 'esc_url_raw'
+	  ) 
+  );
                   
       //3. Finally, we define the control itself (which links a setting to a section and renders the HTML controls)...
       $wp_customize->add_control( new WP_Customize_Color_Control( //Instantiate the color control class
@@ -444,6 +451,12 @@ class gates_Customize {
 		    'section'  => 'gates_logo_section',
 		    'settings' => 'gates_logo',
 		) ) );
+
+		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'gates_bg_image', array(
+		    'label'    => __( 'Background Image', 'gates' ),
+		    'section'  => 'gates_bg_image_section',
+		    'settings' => 'gates_bg_image',
+		) ) );
         
         
       //4. We can also change built-in settings by modifying properties. For instance, let's make some stuff use live preview JS...
@@ -456,7 +469,8 @@ class gates_Customize {
       
 	      <!-- Customizer CSS --> 
 	      
-	      <style type="text/css">
+		  <style type="text/css">
+		   		<?php self::gates_generate_css( 'body', 'background-image', 'bg_image' ); ?>
 	           <?php self::gates_generate_css( 'body a', 'color', 'accent_color' ); ?>
 	           <?php self::gates_generate_css( 'body a:hover', 'color', 'accent_color' ); ?>
 	           <?php self::gates_generate_css( '.blog-title a', 'color', 'accent_color' ); ?>
